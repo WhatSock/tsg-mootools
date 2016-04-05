@@ -26,7 +26,7 @@ $A.bind(window, 'load', function(){
 					}
 					});
 
-	$A.bind('#a1mirror', 'change click', function(ev){
+	$A.bind('#a1mirror', 'change', function(ev){
 		standardA1.set(this.checked);
 	});
 
@@ -46,7 +46,7 @@ $A.bind(window, 'load', function(){
 					}
 					});
 
-	$A.bind('#a2mirror', 'change click', function(ev){
+	$A.bind('#a2mirror', 'change', function(ev){
 		standardA2.set(this.checked);
 	});
 

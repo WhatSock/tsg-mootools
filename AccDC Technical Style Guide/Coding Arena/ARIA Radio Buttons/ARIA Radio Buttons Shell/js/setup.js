@@ -17,7 +17,7 @@ $A.bind(window, 'load', function(){
 
 	// Bind the mirrored Input tags to dynamically control the ARIA Radiogroup declared above as 'radioGroup'
 
-	$A.bind('#formId input[name="rating"]', 'change click', function(ev){
+	$A.bind('#formId input[name="rating"]', 'change', function(ev){
 		radioGroup.set(this.value);
 	});
 });

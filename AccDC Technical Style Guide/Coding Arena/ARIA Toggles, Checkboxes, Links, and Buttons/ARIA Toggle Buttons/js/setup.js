@@ -26,7 +26,7 @@ $A.bind(window, 'load', function(){
 					}
 					});
 
-	$A.bind('#a1mirror', 'change click', function(ev){
+	$A.bind('#a1mirror', 'change', function(ev){
 		// Manually set the A tag ARIA Toggle Button to match the new value
 		standardA.set(this.checked);
 	});
@@ -50,7 +50,7 @@ $A.bind(window, 'load', function(){
 					}
 					});
 
-	$A.bind('#div1mirror', 'change click', function(ev){
+	$A.bind('#div1mirror', 'change', function(ev){
 		divBtn.set(this.checked);
 	});
 
@@ -73,7 +73,7 @@ $A.bind(window, 'load', function(){
 					}
 					});
 
-	$A.bind('#span1mirror', 'change click', function(ev){
+	$A.bind('#span1mirror', 'change', function(ev){
 		spanBtn.set(this.checked);
 	});
 

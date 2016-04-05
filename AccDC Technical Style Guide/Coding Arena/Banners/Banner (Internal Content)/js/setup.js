@@ -18,7 +18,7 @@ $A.bind(window, 'load', function(){
 
 					// Set the content to be rendered by pulling it from within the same page
 					// 'removeChild' is important here, so no duplicate ID conflicts can occur when the object is opened and closed
-					source: $A.getEl('test-bannr').parentNode.removeChild($A.getEl('test-bannr')),
+					source: $A.getEl('ad-1').parentNode.removeChild($A.getEl('ad-1')),
 
 					// Disable automatic positioning
 					autoFix: 0,

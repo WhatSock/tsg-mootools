@@ -13,7 +13,7 @@ $A.bind(window, 'load', function(){
 
 						// 'this' is the triggering element
 
-						this.src = state ? 'img/checkiconred.png' : 'img/checkiconblue.png';
+						this.src = state ? 'img/horse_checked.svg' : 'img/horse.svg';
 
 						$A.getEl('img1mirror').checked = state ? 'checked' : false;
 
@@ -22,7 +22,7 @@ $A.bind(window, 'load', function(){
 					}
 					});
 
-	$A.bind('#img1mirror', 'change click', function(ev){
+	$A.bind('#img1mirror', 'change', function(ev){
 		// Manually set the IMG ARIA Checkbox to match the new value
 		standardImg.set(this.checked);
 	});
@@ -33,7 +33,7 @@ $A.bind(window, 'load', function(){
 					{
 					state: false,
 					callback: function(state){
-						this.src = state ? 'img/checkiconred.png' : 'img/checkiconblue.png';
+						this.src = state ? 'img/donkey_checked.svg' : 'img/donkey.svg';
 
 						$A.getEl('input1mirror').checked = state ? 'checked' : false;
 
@@ -42,7 +42,7 @@ $A.bind(window, 'load', function(){
 					}
 					});
 
-	$A.bind('#input1mirror', 'change click', function(ev){
+	$A.bind('#input1mirror', 'change', function(ev){
 		inputBtn.set(this.checked);
 	});
 
@@ -65,7 +65,7 @@ $A.bind(window, 'load', function(){
 					}
 					});
 
-	$A.bind('#div1mirror', 'change click', function(ev){
+	$A.bind('#div1mirror', 'change', function(ev){
 		divBtn.set(this.checked);
 	});
 });

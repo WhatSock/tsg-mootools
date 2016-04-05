@@ -32,7 +32,7 @@ color: #333;
 text-decoration: none;
 }
 
-#test-bannr {
+#ad-1 {
 position: relative;
 width: 720px;
 height: 300px;
@@ -42,7 +42,7 @@ background-repeat: no-repeat;
 overflow: hidden;
 box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
 }
-#test-bannr #content {
+#ad-1 #content {
 width: 325px;
 float: right;
 margin: 40px;
@@ -51,7 +51,7 @@ z-index: 4;
 position: relative;
 overflow: visible;
 }
-#test-bannr #content .h2 {
+#ad-1 #content .h2 {
 font-family: 'Alfa Slab One', cursive;
 color: #137dd5;
 font-size: 50px;
@@ -63,7 +63,7 @@ text-shadow: 0px 0px 4px #fff;
 -ms-animation: h2-animation 7s 1 ease-in-out;
 animation: h2-animation 7s 1 ease-in-out;
 }
-#test-bannr #content .h3 {
+#ad-1 #content .h3 {
 font-family: 'Boogaloo', cursive;
 color: #202224;
 font-size: 31px;
@@ -75,7 +75,7 @@ text-shadow: 0px 0px 4px #fff;
 -ms-animation: h3-animation 10s 1 ease-in-out;
 animation: h3-animation 10s 1 ease-in-out;
 }
-#test-bannr #content form {
+#ad-1 #content form {
 margin: 30px 0 0 6px;
 position: relative;
 -webkit-animation: form-animation 12s 1 ease-in-out;
@@ -84,7 +84,7 @@ position: relative;
 -ms-animation: form-animation 12s 1 ease-in-out;
 animation: form-animation 12s 1 ease-in-out;
 }
-#test-bannr #content #email {
+#ad-1 #content #email {
 width: 158px;
 height: 48px;
 float: left;
@@ -105,7 +105,7 @@ background-image: -moz-linear-gradient(bottom, rgb(216,201,185) 0%, rgb(199,178,
 background-image: -webkit-linear-gradient(bottom, rgb(216,201,185) 0%, rgb(199,178,155) 100%);
 background-image: -ms-linear-gradient(bottom, rgb(216,201,185) 0%, rgb(199,178,155) 100%);
 }
-#test-bannr #content #email:focus {
+#ad-1 #content #email:focus {
 background-image: linear-gradient(bottom, rgb(199,178,155) 0%, rgb(199,178,155) 100%);
 background-image: -o-linear-gradient(bottom, rgb(199,178,155) 0%, rgb(199,178,155) 100%);
 background-image: -moz-linear-gradient(bottom, rgb(199,178,155) 0%, rgb(199,178,155) 100%);
@@ -113,7 +113,7 @@ background-image: -webkit-linear-gradient(bottom, rgb(199,178,155) 0%, rgb(199,1
 background-image: -ms-linear-gradient(bottom, rgb(199,178,155) 0%, rgb(199,178,155) 100%);
 
 }
-#test-bannr #content #submit {
+#ad-1 #content #submit {
 height: 50px;
 float: left;
 padding: 0 20px;
@@ -133,16 +133,16 @@ background-image: -webkit-linear-gradient(bottom, rgb(245,247,249) 0%, rgb(255,2
 background-image: -ms-linear-gradient(bottom, rgb(245,247,249) 0%, rgb(255,255,255) 100%);
 cursor: pointer;
 }
-#test-bannr #content #submit:hover {
+#ad-1 #content #submit:hover {
 background-image: linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 100%);
 background-image: -o-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 100%);
 background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 100%);
 background-image: -webkit-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 100%);
 background-image: -ms-linear-gradient(bottom, rgb(255,255,255) 0%, rgb(255,255,255) 100%);
 }
-#test-bannr ul#water{
+#ad-1 ul#water{
 }
-#test-bannr li#water-back {
+#ad-1 li#water-back {
 width: 1200px;
 height: 84px;
 background-image: url(../img/ad-1/water-back.png);
@@ -157,7 +157,7 @@ left: -20px;
 -ms-animation: water-back-animation 3s infinite ease-in-out;
 animation: water-back-animation 3s infinite ease-in-out;
 }
-#test-bannr li#water-front {
+#ad-1 li#water-front {
 width: 1200px;
 height: 158px;
 background-image: url(../img/ad-1/water-front.png);
@@ -172,7 +172,7 @@ left:-30px;
 -ms-animation: water-front-animation 2s infinite ease-in-out;
 animation: water-front-animation 2s infinite ease-in-out;
 }
-#test-bannr ul#boat {
+#ad-1 ul#boat {
 width: 249px;
 height: 215px;
 z-index: 2;
@@ -186,7 +186,7 @@ overflow: visible;
 -ms-animation: boat-in-animation 3s 1 ease-out;
 animation: boat-in-animation 3s 1 ease-out;
 }
-#test-bannr ul#boat li {
+#ad-1 ul#boat li {
 width: 249px;
 height: 215px;
 background-image: url(../img/ad-1/boat.png);
@@ -200,7 +200,7 @@ overflow: visible;
 -ms-animation: boat-animation 2s infinite ease-in-out;
 animation: boat-animation 2s infinite ease-in-out;
 }
-#test-bannr #question-mark {
+#ad-1 #question-mark {
 width: 24px;
 height: 50px;
 background-image: url(../img/ad-1/question-mark.png);
@@ -213,12 +213,12 @@ top: -30px;
 -ms-animation: question-mark-animation 4s 1 ease-in-out;
 animation: question-mark-animation 4s 1 ease-in-out;
 }
-#test-bannr #clouds {
+#ad-1 #clouds {
 position: absolute;
 top: 0px;
 z-index: 0;
 }
-#test-bannr #cloud-group-1 {
+#ad-1 #cloud-group-1 {
 width:720px;
 position: absolute;
 left:0px;
@@ -228,7 +228,7 @@ left:0px;
 -ms-animation: cloud-group-1-animation 30s infinite linear;
 animation: cloud-group-1-animation 30s infinite linear;
 }
-#test-bannr #cloud-group-2 {
+#ad-1 #cloud-group-2 {
 width: 720px;
 position: absolute;
 left: 720px;
@@ -238,7 +238,7 @@ left: 720px;
 -ms-animation: cloud-group-2-animation 30s infinite linear;
 animation: cloud-group-2-animation 30s infinite linear;
 }
-#test-bannr .cloud-1 {
+#ad-1 .cloud-1 {
 width: 172px;
 height: 121px;
 background-image: url(../img/ad-1/cloud-1.png);
@@ -246,7 +246,7 @@ position: absolute;
 top: 10px;
 left: 40px;
 }
-#test-bannr .cloud-2 {
+#ad-1 .cloud-2 {
 width: 121px;
 height: 75px;
 background-image: url(../img/ad-1/cloud-2.png);
@@ -254,7 +254,7 @@ position: absolute;
 top: -25px;
 left: 300px;
 }
-#test-bannr .cloud-3 {
+#ad-1 .cloud-3 {
 width: 132px;
 height: 105px;
 background-image: url(../img/ad-1/cloud-3.png);

@@ -14,7 +14,7 @@ $A.bind(window, 'load', function(){
 					accEnd: 'End',
 
 					// Specify the path and ID of the banner content to be loaded
-					source: 'files/overlays.html #test-bannr',
+					source: 'files/overlays.html #ad-1',
 
 					// Disable automatic positioning
 					autoFix: 0,

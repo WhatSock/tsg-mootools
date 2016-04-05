@@ -44,7 +44,7 @@ color: #333;
 text-decoration: none;
 }
 
-#test-bannr {
+#ad-2 {
 width: 160px;
 height: 600px;
 background-image: url(../img/ad-2/background.png);
@@ -55,7 +55,7 @@ position: relative;
 box-shadow: 1px 1px 4px rgba(0,0,0,0.4);
 text-align: center;
 }
-#test-bannr .h2 {
+#ad-2 .h2 {
 font-family: 'Alfa Slab One', cursive;
 color: #137dd5;
 font-size: 40px;
@@ -68,7 +68,7 @@ margin-top: 110px;
 -ms-animation: h2-animation-2 5s 1 ease-in-out;
 animation: h2-animation-2 5s 1 ease-in-out;
 }
-#test-bannr ul#boat {
+#ad-2 ul#boat {
 width: 96px;
 height: 84px;
 overflow: visible;
@@ -82,7 +82,7 @@ left: 10px;
 -ms-animation: boat-in-animation-2 15s 1 ease-in-out;
 animation: boat-in-animation-2 15s 1 ease-in-out;
 }
-#test-bannr ul#boat li {
+#ad-2 ul#boat li {
 width: 96px;
 height: 84px;
 z-index: 2;
@@ -96,7 +96,7 @@ background-image: url(../img/ad-2/boat.png);
 -ms-animation: boat-in-animation-2 2.5s infinite ease-out;
 animation: boat-animation-2 2.5s infinite ease-out;
 }
-#test-bannr #water {
+#ad-2 #water {
 position: absolute;
 top: 382px;
 -webkit-animation: water-in-animation-2 2s 1 ease-out;
@@ -105,7 +105,7 @@ top: 382px;
 -ms-animation: water-in-animation-2 2s 1 ease-out;
 animation: water-in-animation-2 2s 1 ease-out;
 }
-#test-bannr #water-back {
+#ad-2 #water-back {
 width: 200px;
 height: 75px;
 background-image: url(../img/ad-2/water-back.png);
@@ -120,7 +120,7 @@ left: -22px;
 -ms-animation: water-back-animation-2 3s infinite ease-in-out;
 animation: water-back-animation-2 3s infinite ease-in-out;
 }
-#test-bannr #water-front {
+#ad-2 #water-front {
 width: 200px;
 height: 368px;
 background-image: url(../img/ad-2/water-front.png);
@@ -135,7 +135,7 @@ left:-30px;
 -ms-animation: water-front-animation-2 2s infinite ease-in-out;
 animation: water-front-animation-2 2s infinite ease-in-out;
 }
-#test-bannr #content {
+#ad-2 #content {
 width: 100%;
 position: absolute;
 bottom: 0px;
@@ -146,14 +146,14 @@ z-index: 4;
 -ms-animation: content-in-animation-2 15s 1 ease-in-out;
 animation: content-in-animation-2 15s 1 ease-in-out;
 }
-#test-bannr #content .h3 {
+#ad-2 #content .h3 {
 color: #fff;
 font-family: 'Boogaloo', cursive;
 font-size: 30px;
 line-height: 32px;
 text-shadow: 0px 0px 4px #137dd5;
 }
-#test-bannr #content a:link, #test-bannr #content a:visited {
+#ad-2 #content a:link, #ad-2 #content a:visited {
 display: inline-block;
 height: 20px;
 padding: 15px;
@@ -173,7 +173,7 @@ background-image: -moz-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255
 background-image: -webkit-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
 background-image: -ms-linear-gradient(bottom, rgb(238,238,238) 10%, rgb(255,255,255) 55%);
 }
-#test-bannr #content a:hover, #test-bannr #content a:active {
+#ad-2 #content a:hover, #ad-2 #content a:active {
 background-image: linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
 background-image: -o-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
 background-image: -moz-linear-gradient(bottom, rgb(255,255,255) 10%, rgb(255,255,255) 55%);
