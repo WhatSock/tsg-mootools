@@ -6,8 +6,7 @@ $A.bind(window, 'load', function(){
 		undefined,
 					{
 					openOnFocus: true,
-					openOnFocusHelpText: 'Date picker expanded. Press Down arrow to browse the calendar, or Escape to collapse.',
-					helpTextOnClose: 'Calendar collapsed.',
+					openOnFocusHelpText: 'Press Down arrow to browse the calendar, or Escape to close.',
 					inputDateFormat: 'MM/DD/YYYY',
 
 					// Always restore today's date as being selected when calendar is activated.
@@ -18,6 +17,16 @@ $A.bind(window, 'load', function(){
 					autoPosition: 3,
 					// Customize with positive or negative offsets
 					offsetTop: 0,
-					offsetLeft: 5
+					offsetLeft: 5,
+					overrides:
+									{
+									allowCascade: true,
+									runAfter: function(dc){
+										$A.remAttr($A.getEl('keyboardHint'), 'hidden');
+									},
+									runAfterClose: function(dc){
+										$A.setAttr($A.getEl('keyboardHint'), 'hidden', true);
+									}
+									}
 					});
 });
